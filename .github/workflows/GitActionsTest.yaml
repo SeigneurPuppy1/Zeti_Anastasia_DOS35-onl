@@ -1,0 +1,9 @@
+name: Workflow #Название
+on: push #При каком триггере выполняются действия
+
+jobs:
+  build:                  #Имя задачи (ID)
+   runs-on: ubuntu-latest #На какой ОС будет выполнение
+
+steps:
+ - run: systemctl --type=service --state=active #Какая команда выполнится
