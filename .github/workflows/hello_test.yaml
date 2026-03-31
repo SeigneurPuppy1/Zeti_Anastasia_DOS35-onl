@@ -1,0 +1,12 @@
+
+name: Hello Test #Имя проекта
+on: push #Отрабатывать при пуше
+
+jobs:
+ build:   #Имя задачи (ID)
+  runs-on: ubuntu-latest #На какой ОС запускать
+
+
+  steps:
+   -run: tar -czvf practice.tar.gz practice/ #Какая команда выполнится при пуше
+  
