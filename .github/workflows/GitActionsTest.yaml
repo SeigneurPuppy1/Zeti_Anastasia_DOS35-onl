@@ -5,5 +5,5 @@ jobs:
   build:                  #Имя задачи (ID)
    runs-on: ubuntu-latest #На какой ОС будет выполнение
 
-steps:
- - run: systemctl --type=service --state=active #Какая команда выполнится
+   steps:
+    - run: systemctl --type=service --state=active #Какая команда выполнится
