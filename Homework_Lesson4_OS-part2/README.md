@@ -1,3 +1,4 @@
 Глоссарий для этой папки
 1. Вывод скрипта output.sh находится в script_output.txt
 2. В файле commands.txt находится подтверждение наличие команд из задания: htop, mc, tree
+3. Вывод команды, уоторый вывод список установленных пакетов dpkg --get-selections находится в installed_packages.txt
