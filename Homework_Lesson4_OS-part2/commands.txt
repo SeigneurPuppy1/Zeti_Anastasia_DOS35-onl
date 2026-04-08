@@ -1,0 +1,3 @@
+/usr/bin/htop
+/usr/bin/mc
+/usr/bin/tree
